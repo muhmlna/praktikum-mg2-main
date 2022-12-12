@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body {
+    background-color: #86A3B1;
+ }
+ .section {
+    margin-bottom: 50px;
+    box-shadow: rgba(34, 1, 1, 0.16) 0px 3px 6px, rgba(117, 12, 12, 0.23) 0px 3px 6px;
+    background-color: rgb(226, 154, 154);
+    
+ }
+ .gd {
+    width: 100%;
+ }
+ .jarak-atas {
+    margin: 15px 0;
+ }
+ h1 {
+    font-size: 14px;
+    color:#535D69;
+    font-size: 20px;
+    margin: 15px auto;
+    text-align: center;
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+ #white {
+    color: rgb(70, 92, 27);
+ }
+ #orange {
+    color: #e73aca;
+ }
+ nav {
+    width: 100%;
+    height: 45px;
+    background-color: #E4E1EA;
+    box-shadow: rgba(114, 46, 6, 0.16) 0px 3px 6px, rgba(136, 34, 27, 0.1) 0px 7px 9px;
+    background-size: cover;
+    margin-bottom: 50px;
+ }
+ nav ul {
+    margin: 13px auto;
+ }
+ 
+ nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 12px;
+ }
+ 
+ nav li a {
+    color:#535D69;
+ }
+ 
+ nav li a:hover {
+    color: rgb(65, 197, 197);
+ }
+ 
+ .kotak {
+    display: flex;
+    margin: 20px 0 80px 0;
+ }
+ 
+ .no-border{
+    border: none;
+ }
+ .no-background {
+    background: none;
+ }
+ 
+ .box {
+    margin: 10px 10px;
+    background-color: #C3D0D9;
+ }
+ .capt {
+    float: left;
+       color: #535D69;
+       font-size: 140px;
+       line-height: 120px;
+       padding-top: 4px;
+       padding-right: 8px;
+       padding-left: 3px;
+       font-family: Arial;
+ }
+ .artikel {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 50%;
+    /* flex-wrap: wrap;   */
+ }
+ 
+ .artikel figure {
+    width: 100%;
+    height: 160px;
+    border: 0px solid rgb(226, 162, 162);
+    /* box-sizing: border-box; */
+ }
+ 
+ .img img {
+    width: 100%;
+ }
+ .artikel p{
+    margin: 20px 10px;
+    line-height: 4vh;
+    text-align: justify;
+ }
+ .flex-1  {
+    flex-grow: 1;
+ }
+ 
+ section {
+    width: 85%;
+    margin: 30px auto 0px auto;
+ }
+ 
+ .judul {
+    font-weight: 600;
+ }
+ 
+ .bayangan-header {
+    width: 45%;
+    float: right;
+    top: 0;
+    display: flex;
+    box-sizing: border-box;
+    position: sticky;
+ }
+ .border {
+    border: 1px solid #535D69;
+ }
+ .header {
+    text-align: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+ }
+ .header h1 {
+    text-align: left;
+    word-spacing: 1.3vh;
+ }
+ .container {
+    display: flex;
+    width: 85%;
+    height: 150px;
+    margin: 0 auto;
+ }
+ header {
+    width: 100%;
+    background-color:#D2B9BF;
+ }
+ .bg-tb {
+    background-color: #D2B9BF;
+ }
+ header figure{
+    display: inline-flex;
+    padding-top: 20px;
+ }
+ figure img {
+    width: 110px;
+ }
+ .subjudul {
+    padding: 5px;
+    background-color: #C3D0D9;
+    width: 130px;
+ }
+ .subjudul-2 {
+    padding: 5px;
+    background-color: #C3D0D9;
+    width: 160px;
+ }
+ .subjudul-3 {
+    padding: 5px;
+    background-color: #C3D0D9;
+    width: 140px;
+ }
+ .subjudul, .subjudul-2, .subjudul-3 h4 {
+    color: #535D69;
+ }
+ 
+ .video {
+    width: 500px;
+    height: 300px;
+ }
+ .kotak th {
+    text-transform: uppercase;
+    font-size: 12px;
+ }
+ table, tr, th, td {
+    border: 1px solid #535D69;
+    border-collapse: collapse;
+    padding: 5px 10px;
+ }
+ table {
+    width: 100%;
+ }
+ .center {
+    text-align: center;
+ }
+ .box-2 {
+    background-color: #D2B9BF;
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px 30px;
+ }
+ .form {
+    margin: 15px 0;
+ }
+ .submit {
+    width: 100%;
+    background-color:#E4E1EA;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #535D69;
+    margin-bottom: 20px;
+ }
+ .form input {
+    margin: 7px 2px 7px 0px;
+    border: none;
+    padding: 5px;
+ }
+ .bawah input {
+    margin-left: 10px;
+ }
+ .footer {
+    width: 100%;
+    padding: 15px;
+ }
+ .footer h5 {
+    margin: 0 auto;
+    color: #D2B9BF;
+ }
+ footer {
+    background-color: rgba(113, 69, 236, 0.73);
+    margin: 50px 0;
+ }
+ 
